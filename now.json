@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "LAP-compiler",
+  "builds": [
+    { "src": "/src/toC.js", "use": "@now/node" },
+    { "src": "/src/toJS.js", "use": "@now/node" },
+    { "src": "/src/notFound.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/c", "dest": "/src/toC.js", "methods": [ "POST" ] },
+    { "src": "/js", "dest": "/src/toJS.js", "methods": [ "POST" ] },
+    { "src": "/(.*)", "dest": "/src/notFound.js" }
+  ]
+}

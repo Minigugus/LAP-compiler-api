@@ -1,0 +1,31 @@
+{
+  "name": "lap-compiler-api",
+  "description": "A serverless API (lambda) for `LAP-compiler`.",
+  "authors": "Florentin Magniez",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lap-compiler": "git+https://github.com/Minigugus/LAP-compiler.git",
+    "body-parser": "^1.18.3"
+  },
+  "devDependencies": {
+    "express": "^4.16.4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florentin Magniez",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minigugus/LAP-compiler-api.git"
+  },
+  "keywords": [
+    "serverless"
+  ],
+  "bugs": {
+    "url": "https://github.com/Minigugus/LAP-compiler-api/issues"
+  },
+  "homepage": "https://github.com/Minigugus/LAP-compiler-api#readme"
+}

@@ -1,0 +1,10 @@
+node_modules
+archives/
+*~
+*.log
+.vscode
+/tests
+/exemple.lap
+/README.md
+/.gitignore
+/index.js
